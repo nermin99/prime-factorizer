@@ -14,7 +14,6 @@ function handleSubmit(e) {
 function factorize(input) {
   let n = input
   let i = 2
-
   const primes = []
 
   while (i <= Math.floor(Math.sqrt(n))) {
